@@ -38,7 +38,7 @@ export const employeesFetch = () => {
       });
   };
 
-export const employeeSave = ({ name, phone, shift, uid}) => {
+export const employeeSave = ({ name, phone, shift, uid }) => {
   const { currentUser } = firebase.auth();
 
   return (dispatch) => {
